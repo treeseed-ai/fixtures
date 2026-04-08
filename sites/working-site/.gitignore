@@ -1,3 +1,4 @@
+node_modules/
 public/books/*.md
 public/__treeseed/*.json
 .dev.vars
