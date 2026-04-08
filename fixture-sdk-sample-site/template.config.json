@@ -1,0 +1,15 @@
+{
+  "id": "fixture-sdk-sample-site",
+  "displayName": "SDK Sample Site Fixture",
+  "description": "Internal SDK fixture site used for content-backed integration testing and documentation examples.",
+  "category": "fixture",
+  "tags": ["fixture", "sdk", "content", "agents"],
+  "templateApiVersion": 1,
+  "minCliVersion": "0.0.1",
+  "variables": [],
+  "postCreate": [],
+  "testing": {
+    "smokeCommand": "npm test",
+    "buildCommand": "npm run verify"
+  }
+}
