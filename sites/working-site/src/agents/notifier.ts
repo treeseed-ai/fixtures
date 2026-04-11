@@ -1,5 +1,5 @@
-import type { AgentHandler } from '@treeseed/core/utils/agents/runtime-types';
-import { serializeAgentMessagePayload } from '@treeseed/core/utils/agents/contracts/messages';
+import type { AgentHandler } from '@treeseed/sdk/utils/agents/runtime-types';
+import { serializeAgentMessagePayload } from '@treeseed/sdk/utils/agents/contracts/messages';
 
 interface NotifierInputs {
 	subscriptions: Array<{ email: string }>;
