@@ -1,7 +1,6 @@
 import type { AgentHandler } from '@treeseed/core/utils/agents/runtime-types';
 import {
 	parseAgentMessagePayload,
-	serializeAgentMessagePayload,
 } from '@treeseed/core/utils/agents/contracts/messages';
 
 interface ResearcherInputs {
@@ -107,18 +106,18 @@ export const researcherHandler: AgentHandler<ResearcherInputs, ResearcherResult>
 
 		await context.sdk.createMessage({
 			type: 'research_started',
-			payload: serializeAgentMessagePayload('research_started', {
+			payload: {
 				questionId: result.questionId,
 				researcherRunId: context.runId,
-			}),
+			},
 		});
 		await context.sdk.createMessage({
 			type: 'research_completed',
-			payload: serializeAgentMessagePayload('research_completed', {
+			payload: {
 				questionId: result.questionId,
 				knowledgeId: result.knowledgeSlug,
 				researcherRunId: context.runId,
-			}),
+			},
 		});
 		return {
 			status: 'completed',

@@ -2,7 +2,6 @@ import path from 'node:path';
 import type { AgentHandler } from '@treeseed/core/utils/agents/runtime-types';
 import {
 	parseAgentMessagePayload,
-	serializeAgentMessagePayload,
 } from '@treeseed/core/utils/agents/contracts/messages';
 import type { AgentErrorCategory } from '@treeseed/core/utils/agents/contracts/run';
 
@@ -163,20 +162,20 @@ export const engineerHandler: AgentHandler<EngineerInputs, EngineerResult> = {
 			type: messageType,
 			payload:
 				messageType === 'task_complete'
-					? serializeAgentMessagePayload('task_complete', {
+					? {
 						branchName: result.branchName,
 						changedTargets: result.changedPaths,
 						engineerRunId: context.runId,
-					})
+					}
 					: messageType === 'task_waiting'
-						? serializeAgentMessagePayload('task_waiting', {
+						? {
 							blockingReason: result.summary,
 							engineerRunId: context.runId,
-						})
-						: serializeAgentMessagePayload('task_failed', {
+						}
+						: {
 							failureSummary: result.summary,
 							engineerRunId: context.runId,
-						}),
+						},
 		});
 		return {
 			status: result.status,

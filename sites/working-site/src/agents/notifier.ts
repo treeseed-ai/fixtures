@@ -1,5 +1,4 @@
 import type { AgentHandler } from '@treeseed/core/utils/agents/runtime-types';
-import { serializeAgentMessagePayload } from '@treeseed/core/utils/agents/contracts/messages';
 
 interface NotifierInputs {
 	subscriptions: Array<{ email: string }>;
@@ -83,11 +82,11 @@ export const notifierHandler: AgentHandler<NotifierInputs, NotifierResult> = {
 		for (const subscription of result.subscriptions) {
 			await context.sdk.createMessage({
 				type: 'subscriber_notified',
-				payload: serializeAgentMessagePayload('subscriber_notified', {
+				payload: {
 					email: subscription.email,
 					itemCount: result.activityCount,
 					notifierRunId: context.runId,
-				}),
+				},
 			});
 		}
 		await context.sdk.upsertCursor({

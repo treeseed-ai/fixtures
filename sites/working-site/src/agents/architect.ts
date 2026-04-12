@@ -1,7 +1,6 @@
 import type { AgentHandler } from '@treeseed/core/utils/agents/runtime-types';
 import {
 	parseAgentMessagePayload,
-	serializeAgentMessagePayload,
 } from '@treeseed/core/utils/agents/contracts/messages';
 
 interface ArchitectInputs {
@@ -71,11 +70,11 @@ export const architectHandler: AgentHandler<ArchitectInputs, ArchitectResult> = 
 
 		await context.sdk.createMessage({
 			type: 'architecture_updated',
-			payload: serializeAgentMessagePayload('architecture_updated', {
+			payload: {
 				objectiveId: result.objectiveId,
 				knowledgeId: result.knowledgeSlug,
 				architectRunId: context.runId,
-			}),
+			},
 		});
 		return {
 			status: 'completed',

@@ -1,5 +1,4 @@
 import type { AgentHandler } from '@treeseed/core/utils/agents/runtime-types';
-import { serializeAgentMessagePayload } from '@treeseed/core/utils/agents/contracts/messages';
 
 interface PlannerInputs {
 	objectiveIds: string[];
@@ -64,21 +63,21 @@ export const plannerHandler: AgentHandler<PlannerInputs, PlannerResult> = {
 		for (const question of result.questions) {
 			await context.sdk.createMessage({
 				type: 'question_priority_updated',
-				payload: serializeAgentMessagePayload('question_priority_updated', {
+				payload: {
 					questionId: question.id,
 					reason: question.reason,
 					plannerRunId: context.runId,
-				}),
+				},
 			});
 		}
 		for (const objective of result.objectives) {
 			await context.sdk.createMessage({
 				type: 'objective_priority_updated',
-				payload: serializeAgentMessagePayload('objective_priority_updated', {
+				payload: {
 					objectiveId: objective.id,
 					reason: objective.reason,
 					plannerRunId: context.runId,
-				}),
+				},
 			});
 		}
 		await context.sdk.upsertCursor({

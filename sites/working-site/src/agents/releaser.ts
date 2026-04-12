@@ -1,7 +1,6 @@
 import type { AgentHandler } from '@treeseed/core/utils/agents/runtime-types';
 import {
 	parseAgentMessagePayload,
-	serializeAgentMessagePayload,
 } from '@treeseed/core/utils/agents/contracts/messages';
 
 interface ReleaserInputs {
@@ -97,19 +96,19 @@ export const releaserHandler: AgentHandler<ReleaserInputs, ReleaserResult> = {
 	async emitOutputs(context, result) {
 		await context.sdk.createMessage({
 			type: 'release_started',
-			payload: serializeAgentMessagePayload('release_started', {
+			payload: {
 				taskRunId: result.taskRunId,
 				releaserRunId: context.runId,
-			}),
+			},
 		});
 
 		if (result.status === 'completed') {
 			await context.sdk.createMessage({
 				type: 'release_completed',
-				payload: serializeAgentMessagePayload('release_completed', {
+				payload: {
 					releaseSummary: result.summary,
 					releaserRunId: context.runId,
-				}),
+				},
 			});
 			return {
 				status: 'completed',
@@ -124,10 +123,10 @@ export const releaserHandler: AgentHandler<ReleaserInputs, ReleaserResult> = {
 		if (result.status === 'waiting') {
 			await context.sdk.createMessage({
 				type: 'release_failed',
-				payload: serializeAgentMessagePayload('release_failed', {
+				payload: {
 					failureSummary: result.summary,
 					releaserRunId: context.runId,
-				}),
+				},
 			});
 			return {
 				status: 'waiting',
@@ -137,10 +136,10 @@ export const releaserHandler: AgentHandler<ReleaserInputs, ReleaserResult> = {
 
 		await context.sdk.createMessage({
 			type: 'release_failed',
-			payload: serializeAgentMessagePayload('release_failed', {
+			payload: {
 				failureSummary: result.summary,
 				releaserRunId: context.runId,
-			}),
+			},
 		});
 		return {
 			status: 'failed',

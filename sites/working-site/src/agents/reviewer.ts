@@ -1,7 +1,6 @@
 import type { AgentHandler } from '@treeseed/core/utils/agents/runtime-types';
 import {
 	parseAgentMessagePayload,
-	serializeAgentMessagePayload,
 } from '@treeseed/core/utils/agents/contracts/messages';
 
 interface ReviewerInputs {
@@ -88,10 +87,10 @@ export const reviewerHandler: AgentHandler<ReviewerInputs, ReviewerResult> = {
 		if (result.status === 'completed') {
 			await context.sdk.createMessage({
 				type: 'task_verified',
-				payload: serializeAgentMessagePayload('task_verified', {
+				payload: {
 					branchName: result.branchName,
 					reviewerRunId: context.runId,
-				}),
+				},
 			});
 			return {
 				status: 'completed',
@@ -107,10 +106,10 @@ export const reviewerHandler: AgentHandler<ReviewerInputs, ReviewerResult> = {
 		if (result.status === 'waiting') {
 			await context.sdk.createMessage({
 				type: 'review_waiting',
-				payload: serializeAgentMessagePayload('review_waiting', {
+				payload: {
 					blockingReason: result.summary,
 					reviewerRunId: context.runId,
-				}),
+				},
 			});
 			return {
 				status: 'waiting',
@@ -120,10 +119,10 @@ export const reviewerHandler: AgentHandler<ReviewerInputs, ReviewerResult> = {
 
 		await context.sdk.createMessage({
 			type: 'review_failed',
-			payload: serializeAgentMessagePayload('review_failed', {
+			payload: {
 				failureSummary: result.summary,
 				reviewerRunId: context.runId,
-			}),
+			},
 		});
 		return {
 			status: 'failed',
