@@ -1,7 +1,7 @@
-import type { AgentHandler } from '@treeseed/sdk/utils/agents/runtime-types';
+import type { AgentHandler } from '@treeseed/agent/runtime-types';
 import {
 	parseAgentMessagePayload,
-} from '@treeseed/core/utils/agents/contracts/messages';
+} from '@treeseed/agent/contracts/messages';
 
 interface ArchitectInputs {
 	objectiveId: string | null;

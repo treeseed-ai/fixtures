@@ -6,7 +6,7 @@ cloudflare:
   accountId: fixture-cloudflare-account-id
   workerName: treeseed-working-site
 plugins:
-  - package: '@treeseed/core/plugin-default'
+  - package: '@treeseed/sdk/plugin-default'
 providers:
   forms: store_only
   agents:

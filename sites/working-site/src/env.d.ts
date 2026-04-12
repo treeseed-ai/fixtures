@@ -2,7 +2,7 @@ import type {
 	CloudflareRuntime,
 	D1DatabaseLike,
 	KvNamespaceLike,
-} from '@treeseed/core/types/cloudflare';
+} from '@treeseed/sdk/types/cloudflare';
 
 declare global {
 	interface Env {
