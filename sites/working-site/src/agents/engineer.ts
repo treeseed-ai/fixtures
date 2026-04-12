@@ -1,5 +1,5 @@
 import path from 'node:path';
-import type { AgentHandler } from '@treeseed/core/utils/agents/runtime-types';
+import type { AgentHandler } from '@treeseed/sdk/utils/agents/runtime-types';
 import {
 	parseAgentMessagePayload,
 } from '@treeseed/core/utils/agents/contracts/messages';
