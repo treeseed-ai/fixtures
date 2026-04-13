@@ -1,7 +1,7 @@
-import type { AgentHandler } from '@treeseed/agent/runtime-types';
+import type { AgentHandler } from '@treeseed/core/runtime-types';
 import {
 	parseAgentMessagePayload,
-} from '@treeseed/agent/contracts/messages';
+} from '@treeseed/core/contracts/messages';
 
 interface ReleaserInputs {
 	branchName: string | null;
@@ -52,7 +52,7 @@ export const releaserHandler: AgentHandler<ReleaserInputs, ReleaserResult> = {
 			};
 		}
 
-		const knowledgeSlug = `release/agent-mvp/${context.runId}`;
+		const knowledgeSlug = `release/core-mvp/${context.runId}`;
 		await context.sdk.create({
 			model: 'knowledge',
 			data: {

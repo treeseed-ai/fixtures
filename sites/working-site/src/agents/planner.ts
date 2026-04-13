@@ -1,4 +1,4 @@
-import type { AgentHandler } from '@treeseed/agent/runtime-types';
+import type { AgentHandler } from '@treeseed/core/runtime-types';
 
 interface PlannerInputs {
 	objectiveIds: string[];

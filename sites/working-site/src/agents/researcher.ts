@@ -1,7 +1,7 @@
-import type { AgentHandler } from '@treeseed/agent/runtime-types';
+import type { AgentHandler } from '@treeseed/core/runtime-types';
 import {
 	parseAgentMessagePayload,
-} from '@treeseed/agent/contracts/messages';
+} from '@treeseed/core/contracts/messages';
 
 interface ResearcherInputs {
 	questionId: string | null;
@@ -54,7 +54,7 @@ export const researcherHandler: AgentHandler<ResearcherInputs, ResearcherResult>
 			};
 		}
 
-		const knowledgeSlug = `research/agent-mvp/${inputs.questionId}-${context.runId}`;
+		const knowledgeSlug = `research/core-mvp/${inputs.questionId}-${context.runId}`;
 		await context.sdk.create({
 			model: 'knowledge',
 			data: {

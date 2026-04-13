@@ -1,7 +1,7 @@
-import type { AgentHandler } from '@treeseed/agent/runtime-types';
+import type { AgentHandler } from '@treeseed/core/runtime-types';
 import {
 	parseAgentMessagePayload,
-} from '@treeseed/agent/contracts/messages';
+} from '@treeseed/core/contracts/messages';
 
 interface ReviewerInputs {
 	messageType: string;

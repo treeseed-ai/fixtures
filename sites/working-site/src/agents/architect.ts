@@ -1,7 +1,7 @@
-import type { AgentHandler } from '@treeseed/agent/runtime-types';
+import type { AgentHandler } from '@treeseed/core/runtime-types';
 import {
 	parseAgentMessagePayload,
-} from '@treeseed/agent/contracts/messages';
+} from '@treeseed/core/contracts/messages';
 
 interface ArchitectInputs {
 	objectiveId: string | null;
@@ -35,7 +35,7 @@ export const architectHandler: AgentHandler<ArchitectInputs, ArchitectResult> = 
 			};
 		}
 
-		const knowledgeSlug = `architecture/agent-mvp/${inputs.objectiveId}-${context.runId}`;
+		const knowledgeSlug = `architecture/core-mvp/${inputs.objectiveId}-${context.runId}`;
 		await context.sdk.create({
 			model: 'knowledge',
 			data: {
