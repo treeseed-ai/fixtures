@@ -1,0 +1,89 @@
+{
+  "packageKind": "book",
+  "packageVersion": 1,
+  "packageId": "book:operations",
+  "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/operations.md",
+  "book": {
+    "id": "operations",
+    "slug": "operations",
+    "title": "Operations",
+    "order": 4,
+    "basePath": "/knowledge/operations/",
+    "downloadFileName": "operations.md",
+    "downloadHref": "/books/operations.md",
+    "downloadTitle": "TreeSeed Operations",
+    "resolvedRoots": [
+      "src/content/knowledge/operations"
+    ]
+  },
+  "files": [
+    {
+      "fileId": "35262d712bc20d063f35ce6069f64efb2ff08dc4",
+      "memberBookId": "operations",
+      "ordinal": 1,
+      "projectRelativePath": "src/content/knowledge/operations/deploy/deploy-template.md",
+      "bookRelativePath": "deploy/deploy-template.md",
+      "rootRelativePath": "deploy/deploy-template.md",
+      "sourceType": "md",
+      "chunkId": "c68110e3a863a01e8ef849d35e6635b9864a7603",
+      "markerId": "marker:operations:0001",
+      "relations": {
+        "book": "operations",
+        "nextFileId": "e32058e4b8fc45db3b00c089b58f1be23a722898"
+      }
+    },
+    {
+      "fileId": "e32058e4b8fc45db3b00c089b58f1be23a722898",
+      "memberBookId": "operations",
+      "ordinal": 2,
+      "projectRelativePath": "src/content/knowledge/operations/forms/forms-and-routing.md",
+      "bookRelativePath": "forms/forms-and-routing.md",
+      "rootRelativePath": "forms/forms-and-routing.md",
+      "sourceType": "md",
+      "chunkId": "6b99acb800b4c2fc3928f2b4806ad4b171f460be",
+      "markerId": "marker:operations:0002",
+      "relations": {
+        "book": "operations",
+        "nextFileId": "bf6e6811e1e74d7198fa7ae10b77345a9bcb023d"
+      }
+    },
+    {
+      "fileId": "bf6e6811e1e74d7198fa7ae10b77345a9bcb023d",
+      "memberBookId": "operations",
+      "ordinal": 3,
+      "projectRelativePath": "src/content/knowledge/operations/index.mdx",
+      "bookRelativePath": "index.mdx",
+      "rootRelativePath": "index.mdx",
+      "sourceType": "mdx",
+      "chunkId": "5c9d8d6a14726ad25d23b9bb531ca5eeca21e527",
+      "markerId": "marker:operations:0003",
+      "relations": {
+        "book": "operations",
+        "nextFileId": "4b3027dbe76abce7de75cbc9fc987498ded111a0"
+      }
+    },
+    {
+      "fileId": "4b3027dbe76abce7de75cbc9fc987498ded111a0",
+      "memberBookId": "operations",
+      "ordinal": 4,
+      "projectRelativePath": "src/content/knowledge/operations/release/release-checks.md",
+      "bookRelativePath": "release/release-checks.md",
+      "rootRelativePath": "release/release-checks.md",
+      "sourceType": "md",
+      "chunkId": "10f00a563f22bcf891a895c0b4f65bb0e33c6226",
+      "markerId": "marker:operations:0004",
+      "relations": {
+        "book": "operations",
+        "nextFileId": null
+      }
+    }
+  ],
+  "repomixSummary": {
+    "totalFiles": 0,
+    "totalCharacters": 1540,
+    "totalTokens": 323,
+    "outputFiles": [
+      "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-operations.repomix.md"
+    ]
+  }
+}

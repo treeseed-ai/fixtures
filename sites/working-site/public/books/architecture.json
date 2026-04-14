@@ -1,0 +1,89 @@
+{
+  "packageKind": "book",
+  "packageVersion": 1,
+  "packageId": "book:architecture",
+  "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/architecture.md",
+  "book": {
+    "id": "architecture",
+    "slug": "architecture",
+    "title": "Architecture",
+    "order": 2,
+    "basePath": "/knowledge/architecture/",
+    "downloadFileName": "architecture.md",
+    "downloadHref": "/books/architecture.md",
+    "downloadTitle": "TreeSeed Architecture",
+    "resolvedRoots": [
+      "src/content/knowledge/architecture"
+    ]
+  },
+  "files": [
+    {
+      "fileId": "79c62ec20511ba8bc7875ac674ff82b0c4383983",
+      "memberBookId": "architecture",
+      "ordinal": 1,
+      "projectRelativePath": "src/content/knowledge/architecture/content/content-model.md",
+      "bookRelativePath": "content/content-model.md",
+      "rootRelativePath": "content/content-model.md",
+      "sourceType": "md",
+      "chunkId": "1c4c2805a7f9d834fa3790861b7ba3fb73c71ca6",
+      "markerId": "marker:architecture:0001",
+      "relations": {
+        "book": "architecture",
+        "nextFileId": "df446ed37d5a1b9841804e3d5b16c09c7e8acf8b"
+      }
+    },
+    {
+      "fileId": "df446ed37d5a1b9841804e3d5b16c09c7e8acf8b",
+      "memberBookId": "architecture",
+      "ordinal": 2,
+      "projectRelativePath": "src/content/knowledge/architecture/index.mdx",
+      "bookRelativePath": "index.mdx",
+      "rootRelativePath": "index.mdx",
+      "sourceType": "mdx",
+      "chunkId": "6230169db3efa6eca02ce438be04c5e02953c56b",
+      "markerId": "marker:architecture:0002",
+      "relations": {
+        "book": "architecture",
+        "nextFileId": "414ddcff39a73c9c505fb9a1e6f7d6cac222ff9d"
+      }
+    },
+    {
+      "fileId": "414ddcff39a73c9c505fb9a1e6f7d6cac222ff9d",
+      "memberBookId": "architecture",
+      "ordinal": 3,
+      "projectRelativePath": "src/content/knowledge/architecture/management/working-surface.md",
+      "bookRelativePath": "management/working-surface.md",
+      "rootRelativePath": "management/working-surface.md",
+      "sourceType": "md",
+      "chunkId": "dc7beb99363a9ec0bf54d74264f615972e37289c",
+      "markerId": "marker:architecture:0003",
+      "relations": {
+        "book": "architecture",
+        "nextFileId": "c9a370d04ee5a6745c6e2efcbbf9c75b5e10f502"
+      }
+    },
+    {
+      "fileId": "c9a370d04ee5a6745c6e2efcbbf9c75b5e10f502",
+      "memberBookId": "architecture",
+      "ordinal": 4,
+      "projectRelativePath": "src/content/knowledge/architecture/runtime/site-runtime.md",
+      "bookRelativePath": "runtime/site-runtime.md",
+      "rootRelativePath": "runtime/site-runtime.md",
+      "sourceType": "md",
+      "chunkId": "109d67fcf73de12e78e278f9bf66c713ff0c0a99",
+      "markerId": "marker:architecture:0004",
+      "relations": {
+        "book": "architecture",
+        "nextFileId": null
+      }
+    }
+  ],
+  "repomixSummary": {
+    "totalFiles": 0,
+    "totalCharacters": 1540,
+    "totalTokens": 323,
+    "outputFiles": [
+      "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-architecture.repomix.md"
+    ]
+  }
+}

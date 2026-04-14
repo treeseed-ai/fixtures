@@ -1,0 +1,89 @@
+{
+  "packageKind": "book",
+  "packageVersion": 1,
+  "packageId": "book:developer",
+  "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/developer.md",
+  "book": {
+    "id": "developer",
+    "slug": "developer",
+    "title": "Developer",
+    "order": 3,
+    "basePath": "/knowledge/developer/",
+    "downloadFileName": "developer.md",
+    "downloadHref": "/books/developer.md",
+    "downloadTitle": "TreeSeed Developer",
+    "resolvedRoots": [
+      "src/content/knowledge/developer"
+    ]
+  },
+  "files": [
+    {
+      "fileId": "b65f2de1643ee3999466e13bfd68d4702cc1be1a",
+      "memberBookId": "developer",
+      "ordinal": 1,
+      "projectRelativePath": "src/content/knowledge/developer/content/content-authoring.md",
+      "bookRelativePath": "content/content-authoring.md",
+      "rootRelativePath": "content/content-authoring.md",
+      "sourceType": "md",
+      "chunkId": "cd8706adfbd39225e86d02bb1e114c6349276774",
+      "markerId": "marker:developer:0001",
+      "relations": {
+        "book": "developer",
+        "nextFileId": "5d8fbb915d50cb8675be2887e09c847c2dbf878f"
+      }
+    },
+    {
+      "fileId": "5d8fbb915d50cb8675be2887e09c847c2dbf878f",
+      "memberBookId": "developer",
+      "ordinal": 2,
+      "projectRelativePath": "src/content/knowledge/developer/index.mdx",
+      "bookRelativePath": "index.mdx",
+      "rootRelativePath": "index.mdx",
+      "sourceType": "mdx",
+      "chunkId": "e7ac31122aa55cc1f81391e64dbd4da795837941",
+      "markerId": "marker:developer:0002",
+      "relations": {
+        "book": "developer",
+        "nextFileId": "d5e467b77549112280a95cc325e64b7062accaae"
+      }
+    },
+    {
+      "fileId": "d5e467b77549112280a95cc325e64b7062accaae",
+      "memberBookId": "developer",
+      "ordinal": 3,
+      "projectRelativePath": "src/content/knowledge/developer/verification/verification-loop.md",
+      "bookRelativePath": "verification/verification-loop.md",
+      "rootRelativePath": "verification/verification-loop.md",
+      "sourceType": "md",
+      "chunkId": "f92cd460cc417f5977f95f4055456d9f67757deb",
+      "markerId": "marker:developer:0003",
+      "relations": {
+        "book": "developer",
+        "nextFileId": "301badcd98bb3d4732f82d19f75e78bd67500965"
+      }
+    },
+    {
+      "fileId": "301badcd98bb3d4732f82d19f75e78bd67500965",
+      "memberBookId": "developer",
+      "ordinal": 4,
+      "projectRelativePath": "src/content/knowledge/developer/workflow/local-workflow.md",
+      "bookRelativePath": "workflow/local-workflow.md",
+      "rootRelativePath": "workflow/local-workflow.md",
+      "sourceType": "md",
+      "chunkId": "8abc2d90cc9a91ef9ccdaeebbf8a6aaacf381afb",
+      "markerId": "marker:developer:0004",
+      "relations": {
+        "book": "developer",
+        "nextFileId": null
+      }
+    }
+  ],
+  "repomixSummary": {
+    "totalFiles": 0,
+    "totalCharacters": 1540,
+    "totalTokens": 323,
+    "outputFiles": [
+      "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-developer.repomix.md"
+    ]
+  }
+}

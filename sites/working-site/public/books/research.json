@@ -1,0 +1,104 @@
+{
+  "packageKind": "book",
+  "packageVersion": 1,
+  "packageId": "book:research",
+  "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/research.md",
+  "book": {
+    "id": "research",
+    "slug": "research",
+    "title": "Research",
+    "order": 1,
+    "basePath": "/knowledge/research/",
+    "downloadFileName": "research.md",
+    "downloadHref": "/books/research.md",
+    "downloadTitle": "TreeSeed Research",
+    "resolvedRoots": [
+      "src/content/knowledge/research"
+    ]
+  },
+  "files": [
+    {
+      "fileId": "5013b6e6d6ba5b5bd3f97dfa0687c2daf782d22f",
+      "memberBookId": "research",
+      "ordinal": 1,
+      "projectRelativePath": "src/content/knowledge/research/evidence/keeping-inquiry-visible.md",
+      "bookRelativePath": "evidence/keeping-inquiry-visible.md",
+      "rootRelativePath": "evidence/keeping-inquiry-visible.md",
+      "sourceType": "md",
+      "chunkId": "2ca6cc9903961da4121813878a6f4f9aa0e2a564",
+      "markerId": "marker:research:0001",
+      "relations": {
+        "book": "research",
+        "nextFileId": "101955b2c2c9de661770c9f5ad579c5fd55b1c36"
+      }
+    },
+    {
+      "fileId": "101955b2c2c9de661770c9f5ad579c5fd55b1c36",
+      "memberBookId": "research",
+      "ordinal": 2,
+      "projectRelativePath": "src/content/knowledge/research/evidence/notes-to-books.md",
+      "bookRelativePath": "evidence/notes-to-books.md",
+      "rootRelativePath": "evidence/notes-to-books.md",
+      "sourceType": "md",
+      "chunkId": "034a18c9f117cbdee8416610ae6c6696cd05d45f",
+      "markerId": "marker:research:0002",
+      "relations": {
+        "book": "research",
+        "nextFileId": "af3f0f972bd43f3e1adffe4a385d9f278b3a0dd4"
+      }
+    },
+    {
+      "fileId": "af3f0f972bd43f3e1adffe4a385d9f278b3a0dd4",
+      "memberBookId": "research",
+      "ordinal": 3,
+      "projectRelativePath": "src/content/knowledge/research/index.mdx",
+      "bookRelativePath": "index.mdx",
+      "rootRelativePath": "index.mdx",
+      "sourceType": "mdx",
+      "chunkId": "b5e793dc1a7308fc2ccb3d83fb754d66f5f06539",
+      "markerId": "marker:research:0003",
+      "relations": {
+        "book": "research",
+        "nextFileId": "8783f9b656b2b37359d3f8540757f1f75dca5658"
+      }
+    },
+    {
+      "fileId": "8783f9b656b2b37359d3f8540757f1f75dca5658",
+      "memberBookId": "research",
+      "ordinal": 4,
+      "projectRelativePath": "src/content/knowledge/research/inquiry/objectives-as-focus.md",
+      "bookRelativePath": "inquiry/objectives-as-focus.md",
+      "rootRelativePath": "inquiry/objectives-as-focus.md",
+      "sourceType": "md",
+      "chunkId": "e761b5f673d1df404ceff84e1e8490441706b75a",
+      "markerId": "marker:research:0004",
+      "relations": {
+        "book": "research",
+        "nextFileId": "87d67d7a4e077961d8091529048e5a7659106a51"
+      }
+    },
+    {
+      "fileId": "87d67d7a4e077961d8091529048e5a7659106a51",
+      "memberBookId": "research",
+      "ordinal": 5,
+      "projectRelativePath": "src/content/knowledge/research/inquiry/questions-as-records.md",
+      "bookRelativePath": "inquiry/questions-as-records.md",
+      "rootRelativePath": "inquiry/questions-as-records.md",
+      "sourceType": "md",
+      "chunkId": "71df18e84a6553795cb2c1e5b2f4a901a538509a",
+      "markerId": "marker:research:0005",
+      "relations": {
+        "book": "research",
+        "nextFileId": null
+      }
+    }
+  ],
+  "repomixSummary": {
+    "totalFiles": 0,
+    "totalCharacters": 1540,
+    "totalTokens": 323,
+    "outputFiles": [
+      "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-research.repomix.md"
+    ]
+  }
+}

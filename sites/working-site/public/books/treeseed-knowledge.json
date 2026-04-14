@@ -1,0 +1,325 @@
+{
+  "packageKind": "library",
+  "packageVersion": 1,
+  "packageId": "library:books",
+  "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/treeseed-knowledge.md",
+  "book": {
+    "id": "library",
+    "slug": "library",
+    "title": "Knowledge Library",
+    "order": 0,
+    "basePath": "/books/",
+    "downloadFileName": "treeseed-knowledge.md",
+    "downloadHref": "/books/treeseed-knowledge.md",
+    "downloadTitle": "Knowledge Library",
+    "resolvedRoots": [
+      "src/content/knowledge/architecture",
+      "src/content/knowledge/developer",
+      "src/content/knowledge/operations",
+      "src/content/knowledge/research"
+    ]
+  },
+  "members": [
+    {
+      "bookId": "research",
+      "slug": "research",
+      "title": "Research",
+      "order": 1,
+      "downloadFileName": "research.md",
+      "downloadHref": "/books/research.md",
+      "sourceFileCount": 5,
+      "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/research.md",
+      "indexPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/research.json"
+    },
+    {
+      "bookId": "architecture",
+      "slug": "architecture",
+      "title": "Architecture",
+      "order": 2,
+      "downloadFileName": "architecture.md",
+      "downloadHref": "/books/architecture.md",
+      "sourceFileCount": 4,
+      "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/architecture.md",
+      "indexPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/architecture.json"
+    },
+    {
+      "bookId": "developer",
+      "slug": "developer",
+      "title": "Developer",
+      "order": 3,
+      "downloadFileName": "developer.md",
+      "downloadHref": "/books/developer.md",
+      "sourceFileCount": 4,
+      "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/developer.md",
+      "indexPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/developer.json"
+    },
+    {
+      "bookId": "operations",
+      "slug": "operations",
+      "title": "Operations",
+      "order": 4,
+      "downloadFileName": "operations.md",
+      "downloadHref": "/books/operations.md",
+      "sourceFileCount": 4,
+      "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/operations.md",
+      "indexPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/operations.json"
+    }
+  ],
+  "files": [
+    {
+      "fileId": "5013b6e6d6ba5b5bd3f97dfa0687c2daf782d22f",
+      "memberBookId": "research",
+      "ordinal": 1,
+      "projectRelativePath": "src/content/knowledge/research/evidence/keeping-inquiry-visible.md",
+      "bookRelativePath": "evidence/keeping-inquiry-visible.md",
+      "rootRelativePath": "evidence/keeping-inquiry-visible.md",
+      "sourceType": "md",
+      "chunkId": "2ca6cc9903961da4121813878a6f4f9aa0e2a564",
+      "markerId": "marker:research:0001",
+      "relations": {
+        "book": "library",
+        "nextFileId": "101955b2c2c9de661770c9f5ad579c5fd55b1c36"
+      }
+    },
+    {
+      "fileId": "101955b2c2c9de661770c9f5ad579c5fd55b1c36",
+      "memberBookId": "research",
+      "ordinal": 2,
+      "projectRelativePath": "src/content/knowledge/research/evidence/notes-to-books.md",
+      "bookRelativePath": "evidence/notes-to-books.md",
+      "rootRelativePath": "evidence/notes-to-books.md",
+      "sourceType": "md",
+      "chunkId": "034a18c9f117cbdee8416610ae6c6696cd05d45f",
+      "markerId": "marker:research:0002",
+      "relations": {
+        "book": "library",
+        "nextFileId": "af3f0f972bd43f3e1adffe4a385d9f278b3a0dd4"
+      }
+    },
+    {
+      "fileId": "af3f0f972bd43f3e1adffe4a385d9f278b3a0dd4",
+      "memberBookId": "research",
+      "ordinal": 3,
+      "projectRelativePath": "src/content/knowledge/research/index.mdx",
+      "bookRelativePath": "index.mdx",
+      "rootRelativePath": "index.mdx",
+      "sourceType": "mdx",
+      "chunkId": "b5e793dc1a7308fc2ccb3d83fb754d66f5f06539",
+      "markerId": "marker:research:0003",
+      "relations": {
+        "book": "library",
+        "nextFileId": "8783f9b656b2b37359d3f8540757f1f75dca5658"
+      }
+    },
+    {
+      "fileId": "8783f9b656b2b37359d3f8540757f1f75dca5658",
+      "memberBookId": "research",
+      "ordinal": 4,
+      "projectRelativePath": "src/content/knowledge/research/inquiry/objectives-as-focus.md",
+      "bookRelativePath": "inquiry/objectives-as-focus.md",
+      "rootRelativePath": "inquiry/objectives-as-focus.md",
+      "sourceType": "md",
+      "chunkId": "e761b5f673d1df404ceff84e1e8490441706b75a",
+      "markerId": "marker:research:0004",
+      "relations": {
+        "book": "library",
+        "nextFileId": "87d67d7a4e077961d8091529048e5a7659106a51"
+      }
+    },
+    {
+      "fileId": "87d67d7a4e077961d8091529048e5a7659106a51",
+      "memberBookId": "research",
+      "ordinal": 5,
+      "projectRelativePath": "src/content/knowledge/research/inquiry/questions-as-records.md",
+      "bookRelativePath": "inquiry/questions-as-records.md",
+      "rootRelativePath": "inquiry/questions-as-records.md",
+      "sourceType": "md",
+      "chunkId": "71df18e84a6553795cb2c1e5b2f4a901a538509a",
+      "markerId": "marker:research:0005",
+      "relations": {
+        "book": "library",
+        "nextFileId": null
+      }
+    },
+    {
+      "fileId": "79c62ec20511ba8bc7875ac674ff82b0c4383983",
+      "memberBookId": "architecture",
+      "ordinal": 1,
+      "projectRelativePath": "src/content/knowledge/architecture/content/content-model.md",
+      "bookRelativePath": "content/content-model.md",
+      "rootRelativePath": "content/content-model.md",
+      "sourceType": "md",
+      "chunkId": "1c4c2805a7f9d834fa3790861b7ba3fb73c71ca6",
+      "markerId": "marker:architecture:0001",
+      "relations": {
+        "book": "library",
+        "nextFileId": "101955b2c2c9de661770c9f5ad579c5fd55b1c36"
+      }
+    },
+    {
+      "fileId": "df446ed37d5a1b9841804e3d5b16c09c7e8acf8b",
+      "memberBookId": "architecture",
+      "ordinal": 2,
+      "projectRelativePath": "src/content/knowledge/architecture/index.mdx",
+      "bookRelativePath": "index.mdx",
+      "rootRelativePath": "index.mdx",
+      "sourceType": "mdx",
+      "chunkId": "6230169db3efa6eca02ce438be04c5e02953c56b",
+      "markerId": "marker:architecture:0002",
+      "relations": {
+        "book": "library",
+        "nextFileId": "af3f0f972bd43f3e1adffe4a385d9f278b3a0dd4"
+      }
+    },
+    {
+      "fileId": "414ddcff39a73c9c505fb9a1e6f7d6cac222ff9d",
+      "memberBookId": "architecture",
+      "ordinal": 3,
+      "projectRelativePath": "src/content/knowledge/architecture/management/working-surface.md",
+      "bookRelativePath": "management/working-surface.md",
+      "rootRelativePath": "management/working-surface.md",
+      "sourceType": "md",
+      "chunkId": "dc7beb99363a9ec0bf54d74264f615972e37289c",
+      "markerId": "marker:architecture:0003",
+      "relations": {
+        "book": "library",
+        "nextFileId": "8783f9b656b2b37359d3f8540757f1f75dca5658"
+      }
+    },
+    {
+      "fileId": "c9a370d04ee5a6745c6e2efcbbf9c75b5e10f502",
+      "memberBookId": "architecture",
+      "ordinal": 4,
+      "projectRelativePath": "src/content/knowledge/architecture/runtime/site-runtime.md",
+      "bookRelativePath": "runtime/site-runtime.md",
+      "rootRelativePath": "runtime/site-runtime.md",
+      "sourceType": "md",
+      "chunkId": "109d67fcf73de12e78e278f9bf66c713ff0c0a99",
+      "markerId": "marker:architecture:0004",
+      "relations": {
+        "book": "library",
+        "nextFileId": "87d67d7a4e077961d8091529048e5a7659106a51"
+      }
+    },
+    {
+      "fileId": "b65f2de1643ee3999466e13bfd68d4702cc1be1a",
+      "memberBookId": "developer",
+      "ordinal": 1,
+      "projectRelativePath": "src/content/knowledge/developer/content/content-authoring.md",
+      "bookRelativePath": "content/content-authoring.md",
+      "rootRelativePath": "content/content-authoring.md",
+      "sourceType": "md",
+      "chunkId": "cd8706adfbd39225e86d02bb1e114c6349276774",
+      "markerId": "marker:developer:0001",
+      "relations": {
+        "book": "library",
+        "nextFileId": "101955b2c2c9de661770c9f5ad579c5fd55b1c36"
+      }
+    },
+    {
+      "fileId": "5d8fbb915d50cb8675be2887e09c847c2dbf878f",
+      "memberBookId": "developer",
+      "ordinal": 2,
+      "projectRelativePath": "src/content/knowledge/developer/index.mdx",
+      "bookRelativePath": "index.mdx",
+      "rootRelativePath": "index.mdx",
+      "sourceType": "mdx",
+      "chunkId": "e7ac31122aa55cc1f81391e64dbd4da795837941",
+      "markerId": "marker:developer:0002",
+      "relations": {
+        "book": "library",
+        "nextFileId": "af3f0f972bd43f3e1adffe4a385d9f278b3a0dd4"
+      }
+    },
+    {
+      "fileId": "d5e467b77549112280a95cc325e64b7062accaae",
+      "memberBookId": "developer",
+      "ordinal": 3,
+      "projectRelativePath": "src/content/knowledge/developer/verification/verification-loop.md",
+      "bookRelativePath": "verification/verification-loop.md",
+      "rootRelativePath": "verification/verification-loop.md",
+      "sourceType": "md",
+      "chunkId": "f92cd460cc417f5977f95f4055456d9f67757deb",
+      "markerId": "marker:developer:0003",
+      "relations": {
+        "book": "library",
+        "nextFileId": "8783f9b656b2b37359d3f8540757f1f75dca5658"
+      }
+    },
+    {
+      "fileId": "301badcd98bb3d4732f82d19f75e78bd67500965",
+      "memberBookId": "developer",
+      "ordinal": 4,
+      "projectRelativePath": "src/content/knowledge/developer/workflow/local-workflow.md",
+      "bookRelativePath": "workflow/local-workflow.md",
+      "rootRelativePath": "workflow/local-workflow.md",
+      "sourceType": "md",
+      "chunkId": "8abc2d90cc9a91ef9ccdaeebbf8a6aaacf381afb",
+      "markerId": "marker:developer:0004",
+      "relations": {
+        "book": "library",
+        "nextFileId": "87d67d7a4e077961d8091529048e5a7659106a51"
+      }
+    },
+    {
+      "fileId": "35262d712bc20d063f35ce6069f64efb2ff08dc4",
+      "memberBookId": "operations",
+      "ordinal": 1,
+      "projectRelativePath": "src/content/knowledge/operations/deploy/deploy-template.md",
+      "bookRelativePath": "deploy/deploy-template.md",
+      "rootRelativePath": "deploy/deploy-template.md",
+      "sourceType": "md",
+      "chunkId": "c68110e3a863a01e8ef849d35e6635b9864a7603",
+      "markerId": "marker:operations:0001",
+      "relations": {
+        "book": "library",
+        "nextFileId": "101955b2c2c9de661770c9f5ad579c5fd55b1c36"
+      }
+    },
+    {
+      "fileId": "e32058e4b8fc45db3b00c089b58f1be23a722898",
+      "memberBookId": "operations",
+      "ordinal": 2,
+      "projectRelativePath": "src/content/knowledge/operations/forms/forms-and-routing.md",
+      "bookRelativePath": "forms/forms-and-routing.md",
+      "rootRelativePath": "forms/forms-and-routing.md",
+      "sourceType": "md",
+      "chunkId": "6b99acb800b4c2fc3928f2b4806ad4b171f460be",
+      "markerId": "marker:operations:0002",
+      "relations": {
+        "book": "library",
+        "nextFileId": "af3f0f972bd43f3e1adffe4a385d9f278b3a0dd4"
+      }
+    },
+    {
+      "fileId": "bf6e6811e1e74d7198fa7ae10b77345a9bcb023d",
+      "memberBookId": "operations",
+      "ordinal": 3,
+      "projectRelativePath": "src/content/knowledge/operations/index.mdx",
+      "bookRelativePath": "index.mdx",
+      "rootRelativePath": "index.mdx",
+      "sourceType": "mdx",
+      "chunkId": "5c9d8d6a14726ad25d23b9bb531ca5eeca21e527",
+      "markerId": "marker:operations:0003",
+      "relations": {
+        "book": "library",
+        "nextFileId": "8783f9b656b2b37359d3f8540757f1f75dca5658"
+      }
+    },
+    {
+      "fileId": "4b3027dbe76abce7de75cbc9fc987498ded111a0",
+      "memberBookId": "operations",
+      "ordinal": 4,
+      "projectRelativePath": "src/content/knowledge/operations/release/release-checks.md",
+      "bookRelativePath": "release/release-checks.md",
+      "rootRelativePath": "release/release-checks.md",
+      "sourceType": "md",
+      "chunkId": "10f00a563f22bcf891a895c0b4f65bb0e33c6226",
+      "markerId": "marker:operations:0004",
+      "relations": {
+        "book": "library",
+        "nextFileId": "87d67d7a4e077961d8091529048e5a7659106a51"
+      }
+    }
+  ]
+}
