@@ -1,9 +1,9 @@
 import path from 'node:path';
-import type { AgentHandler } from '@treeseed/core/runtime-types';
+import type { AgentHandler } from '@treeseed/agent/runtime-types';
 import {
 	parseAgentMessagePayload,
-} from '@treeseed/core/contracts/messages';
-import type { AgentErrorCategory } from '@treeseed/core/contracts/run';
+} from '@treeseed/agent/contracts/messages';
+import type { AgentErrorCategory } from '@treeseed/agent/contracts/run';
 
 interface EngineerInputs {
 	messageId: number;
