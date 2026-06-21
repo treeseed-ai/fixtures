@@ -2,7 +2,7 @@
   "packageKind": "book",
   "packageVersion": 1,
   "packageId": "book:architecture",
-  "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/architecture.md",
+  "markdownPath": "/home/adrian/Projects/treeseed/market/.treeseed/worktrees/demo-2a97516c35/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/architecture.md",
   "book": {
     "id": "architecture",
     "slug": "architecture",
@@ -83,7 +83,7 @@
     "totalCharacters": 1540,
     "totalTokens": 323,
     "outputFiles": [
-      "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-architecture.repomix.md"
+      "/home/adrian/Projects/treeseed/market/.treeseed/worktrees/demo-2a97516c35/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-architecture.repomix.md"
     ]
   }
 }
