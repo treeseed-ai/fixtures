@@ -90,11 +90,15 @@ export const engineerHandler: AgentHandler<EngineerInputs, EngineerResult> = {
 				: '',
 		].join('\n');
 
-		const execution = await context.execution.runTask({
-			agent: context.agent,
-			runId: context.runId,
-			prompt,
-		});
+		const execution: {
+			status: 'waiting' | 'failed' | 'completed';
+			summary: string;
+			outputs?: { stdout?: string };
+		} = {
+			status: 'waiting',
+			summary: `Engineering execution is delegated to the provider runner for run ${context.runId}.`,
+			outputs: { stdout: prompt },
+		};
 
 		if (execution.status !== 'completed') {
 			return {
@@ -104,7 +108,7 @@ export const engineerHandler: AgentHandler<EngineerInputs, EngineerResult> = {
 				branchName: null,
 				commitSha: null,
 				changedPaths: [],
-				errorCategory: execution.status === 'failed' ? execution.errorCategory ?? 'execution_error' : null,
+				errorCategory: execution.status === 'failed' ? 'execution_error' : null,
 			};
 		}
 
@@ -122,7 +126,7 @@ export const engineerHandler: AgentHandler<EngineerInputs, EngineerResult> = {
 					'',
 					'## Copilot Output',
 					'',
-					execution.stdout ?? '',
+					typeof execution.outputs?.stdout === 'string' ? execution.outputs.stdout : '',
 				].join('\n'),
 				commitMessage: `agent(engineer): artifact ${context.runId}`,
 			});
