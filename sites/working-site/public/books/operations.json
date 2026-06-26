@@ -79,9 +79,9 @@
     }
   ],
   "repomixSummary": {
-    "totalFiles": 0,
-    "totalCharacters": 1540,
-    "totalTokens": 323,
+    "totalFiles": 6,
+    "totalCharacters": 7465,
+    "totalTokens": 1976,
     "outputFiles": [
       "/home/adrian/Projects/treeseed/market/.treeseed/worktrees/demo-2a97516c35/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-operations.repomix.md"
     ]
