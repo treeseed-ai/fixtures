@@ -2,7 +2,7 @@
   "packageKind": "book",
   "packageVersion": 1,
   "packageId": "book:developer",
-  "markdownPath": "/home/adrian/Projects/treeseed/market/.treeseed/worktrees/demo-2a97516c35/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/developer.md",
+  "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/developer.md",
   "book": {
     "id": "developer",
     "slug": "developer",
@@ -80,10 +80,10 @@
   ],
   "repomixSummary": {
     "totalFiles": 6,
-    "totalCharacters": 7496,
-    "totalTokens": 1974,
+    "totalCharacters": 7208,
+    "totalTokens": 1862,
     "outputFiles": [
-      "/home/adrian/Projects/treeseed/market/.treeseed/worktrees/demo-2a97516c35/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-developer.repomix.md"
+      "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-developer.repomix.md"
     ]
   }
 }

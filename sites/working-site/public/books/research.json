@@ -2,7 +2,7 @@
   "packageKind": "book",
   "packageVersion": 1,
   "packageId": "book:research",
-  "markdownPath": "/home/adrian/Projects/treeseed/market/.treeseed/worktrees/demo-2a97516c35/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/research.md",
+  "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/research.md",
   "book": {
     "id": "research",
     "slug": "research",
@@ -95,10 +95,10 @@
   ],
   "repomixSummary": {
     "totalFiles": 7,
-    "totalCharacters": 8690,
-    "totalTokens": 2361,
+    "totalCharacters": 8330,
+    "totalTokens": 2221,
     "outputFiles": [
-      "/home/adrian/Projects/treeseed/market/.treeseed/worktrees/demo-2a97516c35/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-research.repomix.md"
+      "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-research.repomix.md"
     ]
   }
 }

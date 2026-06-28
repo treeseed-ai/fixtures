@@ -2,7 +2,7 @@
   "packageKind": "book",
   "packageVersion": 1,
   "packageId": "book:operations",
-  "markdownPath": "/home/adrian/Projects/treeseed/market/.treeseed/worktrees/demo-2a97516c35/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/operations.md",
+  "markdownPath": "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/public/books/operations.md",
   "book": {
     "id": "operations",
     "slug": "operations",
@@ -80,10 +80,10 @@
   ],
   "repomixSummary": {
     "totalFiles": 6,
-    "totalCharacters": 7465,
-    "totalTokens": 1976,
+    "totalCharacters": 7177,
+    "totalTokens": 1864,
     "outputFiles": [
-      "/home/adrian/Projects/treeseed/market/.treeseed/worktrees/demo-2a97516c35/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-operations.repomix.md"
+      "/home/adrian/Projects/treeseed/market/packages/core/.fixtures/treeseed-fixtures/sites/working-site/.treeseed/tmp/book-exports/book-operations.repomix.md"
     ]
   }
 }
