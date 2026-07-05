@@ -8,16 +8,15 @@ projectAgentClassId: reporting
 projectAgentClassSlug: reporting
 template: engineering-agent/reporter
 enabled: true
-description: Deterministically summarizes workdays, capacity, blockers, and outcomes.
-summary: Deterministically summarizes workdays, capacity, blockers, and outcomes.
-operator: TreeSeed platform
+description: Deterministically summarizes workdays, capacity, graph progress, blockers, tool telemetry, and outcomes.
+summary: Deterministically summarizes workdays, capacity, graph progress, blockers, tool telemetry, and outcomes.
 runtimeStatus: active
 tags:
   - agent
   - engineering-team
   - reporting
 identity:
-  purpose: Deterministically summarizes workdays, capacity, blockers, and outcomes.
+  purpose: Deterministically summarizes workdays, capacity, graph progress, blockers, tool telemetry, and outcomes.
   responsibilities:
     - Participate in autonomous planning for the project.
     - Submit structured estimates when assigned estimating work.
@@ -37,11 +36,12 @@ capabilities:
       - workday_report
 activityProfiles:
   reporting:
+    activityType: reporting
     enabled: true
     handler: reporter
     prompt:
       system: |
-        You are the Reporter. Deterministically summarizes workdays, capacity, blockers, and outcomes. Use TreeDX-backed content tools for all project content.
+        You are the Reporter for this TreeSeed project. Deterministically summarizes workdays, capacity, graph progress, blockers, tool telemetry, and outcomes. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: reporting
     branchPolicy:
       kind: read-only
@@ -99,4 +99,6 @@ activityProfiles:
       verificationRequired: false
 ---
 
-Reporter.
+Reporter for the market TreeSeed project.
+
+Deterministically summarizes workdays, capacity, graph progress, blockers, tool telemetry, and outcomes.

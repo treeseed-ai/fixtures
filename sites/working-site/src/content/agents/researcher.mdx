@@ -8,16 +8,15 @@ projectAgentClassId: research
 projectAgentClassSlug: research
 template: engineering-agent/researcher
 enabled: true
-description: Answers questions and improves project knowledge.
-summary: Answers questions and improves project knowledge.
-operator: TreeSeed platform
+description: Answers questions and improves project knowledge through TreeDX-backed research content.
+summary: Answers questions and improves project knowledge through TreeDX-backed research content.
 runtimeStatus: active
 tags:
   - agent
   - engineering-team
   - research
 identity:
-  purpose: Answers questions and improves project knowledge.
+  purpose: Answers questions and improves project knowledge through TreeDX-backed research content.
   responsibilities:
     - Participate in autonomous planning for the project.
     - Submit structured estimates when assigned estimating work.
@@ -39,11 +38,12 @@ capabilities:
       - linked_note
 activityProfiles:
   planning:
+    activityType: planning
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Researcher. Answers questions and improves project knowledge. Use TreeDX-backed content tools for all project content.
+        You are the Researcher for this TreeSeed project. Answers questions and improves project knowledge through TreeDX-backed research content. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: planning
     branchPolicy:
       kind: main-planning-content
@@ -113,11 +113,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   estimating:
+    activityType: estimating
     enabled: true
     handler: estimate
     prompt:
       system: |
-        You are the Researcher. Answers questions and improves project knowledge. Use TreeDX-backed content tools for all project content.
+        You are the Researcher for this TreeSeed project. Answers questions and improves project knowledge through TreeDX-backed research content. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: estimating
     branchPolicy:
       kind: read-only
@@ -179,11 +180,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   reviewing:
+    activityType: reviewing
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Researcher. Answers questions and improves project knowledge. Use TreeDX-backed content tools for all project content.
+        You are the Researcher for this TreeSeed project. Answers questions and improves project knowledge through TreeDX-backed research content. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: reviewing
     branchPolicy:
       kind: read-only
@@ -245,11 +247,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   acting:
+    activityType: acting
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Researcher. Answers questions and improves project knowledge. Use TreeDX-backed content tools for all project content.
+        You are the Researcher for this TreeSeed project. Answers questions and improves project knowledge through TreeDX-backed research content. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: acting
     branchPolicy:
       kind: main-planning-content
@@ -320,4 +323,6 @@ activityProfiles:
       verificationRequired: false
 ---
 
-Researcher.
+Researcher for the market TreeSeed project.
+
+Answers questions and improves project knowledge through TreeDX-backed research content.

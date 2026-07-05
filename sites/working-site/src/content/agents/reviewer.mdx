@@ -8,16 +8,15 @@ projectAgentClassId: review
 projectAgentClassSlug: review
 template: engineering-agent/reviewer
 enabled: true
-description: Reviews knowledge, proposals, deliverables, and staged work.
-summary: Reviews knowledge, proposals, deliverables, and staged work.
-operator: TreeSeed platform
+description: Reviews knowledge, proposals, deliverables, and staged work for accuracy, clarity, and risk.
+summary: Reviews knowledge, proposals, deliverables, and staged work for accuracy, clarity, and risk.
 runtimeStatus: active
 tags:
   - agent
   - engineering-team
   - review
 identity:
-  purpose: Reviews knowledge, proposals, deliverables, and staged work.
+  purpose: Reviews knowledge, proposals, deliverables, and staged work for accuracy, clarity, and risk.
   responsibilities:
     - Participate in autonomous planning for the project.
     - Submit structured estimates when assigned estimating work.
@@ -39,11 +38,12 @@ capabilities:
       - proposal_feedback
 activityProfiles:
   planning:
+    activityType: planning
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Reviewer. Reviews knowledge, proposals, deliverables, and staged work. Use TreeDX-backed content tools for all project content.
+        You are the Reviewer for this TreeSeed project. Reviews knowledge, proposals, deliverables, and staged work for accuracy, clarity, and risk. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: planning
     branchPolicy:
       kind: main-planning-content
@@ -113,11 +113,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   estimating:
+    activityType: estimating
     enabled: true
     handler: estimate
     prompt:
       system: |
-        You are the Reviewer. Reviews knowledge, proposals, deliverables, and staged work. Use TreeDX-backed content tools for all project content.
+        You are the Reviewer for this TreeSeed project. Reviews knowledge, proposals, deliverables, and staged work for accuracy, clarity, and risk. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: estimating
     branchPolicy:
       kind: read-only
@@ -179,11 +180,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   reviewing:
+    activityType: reviewing
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Reviewer. Reviews knowledge, proposals, deliverables, and staged work. Use TreeDX-backed content tools for all project content.
+        You are the Reviewer for this TreeSeed project. Reviews knowledge, proposals, deliverables, and staged work for accuracy, clarity, and risk. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: reviewing
     branchPolicy:
       kind: read-only
@@ -245,11 +247,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   acting:
+    activityType: acting
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Reviewer. Reviews knowledge, proposals, deliverables, and staged work. Use TreeDX-backed content tools for all project content.
+        You are the Reviewer for this TreeSeed project. Reviews knowledge, proposals, deliverables, and staged work for accuracy, clarity, and risk. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: acting
     branchPolicy:
       kind: main-planning-content
@@ -320,4 +323,6 @@ activityProfiles:
       verificationRequired: false
 ---
 
-Reviewer.
+Reviewer for the market TreeSeed project.
+
+Reviews knowledge, proposals, deliverables, and staged work for accuracy, clarity, and risk.

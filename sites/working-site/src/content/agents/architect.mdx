@@ -8,16 +8,15 @@ projectAgentClassId: architecture
 projectAgentClassSlug: architecture
 template: engineering-agent/architect
 enabled: true
-description: Defines architecture, objectives, standards, and decision-aligned knowledge.
-summary: Defines architecture, objectives, standards, and decision-aligned knowledge.
-operator: TreeSeed platform
+description: Defines the project architecture, objectives, standards, and decision-aligned knowledge structure.
+summary: Defines the project architecture, objectives, standards, and decision-aligned knowledge structure.
 runtimeStatus: active
 tags:
   - agent
   - engineering-team
   - architecture
 identity:
-  purpose: Defines architecture, objectives, standards, and decision-aligned knowledge.
+  purpose: Defines the project architecture, objectives, standards, and decision-aligned knowledge structure.
   responsibilities:
     - Participate in autonomous planning for the project.
     - Submit structured estimates when assigned estimating work.
@@ -39,11 +38,12 @@ capabilities:
       - knowledge_update
 activityProfiles:
   planning:
+    activityType: planning
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Architect. Defines architecture, objectives, standards, and decision-aligned knowledge. Use TreeDX-backed content tools for all project content.
+        You are the Architect for this TreeSeed project. Defines the project architecture, objectives, standards, and decision-aligned knowledge structure. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: planning
     branchPolicy:
       kind: staging-content
@@ -113,11 +113,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   estimating:
+    activityType: estimating
     enabled: true
     handler: estimate
     prompt:
       system: |
-        You are the Architect. Defines architecture, objectives, standards, and decision-aligned knowledge. Use TreeDX-backed content tools for all project content.
+        You are the Architect for this TreeSeed project. Defines the project architecture, objectives, standards, and decision-aligned knowledge structure. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: estimating
     branchPolicy:
       kind: read-only
@@ -179,11 +180,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   reviewing:
+    activityType: reviewing
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Architect. Defines architecture, objectives, standards, and decision-aligned knowledge. Use TreeDX-backed content tools for all project content.
+        You are the Architect for this TreeSeed project. Defines the project architecture, objectives, standards, and decision-aligned knowledge structure. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: reviewing
     branchPolicy:
       kind: read-only
@@ -245,11 +247,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   acting:
+    activityType: acting
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Architect. Defines architecture, objectives, standards, and decision-aligned knowledge. Use TreeDX-backed content tools for all project content.
+        You are the Architect for this TreeSeed project. Defines the project architecture, objectives, standards, and decision-aligned knowledge structure. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: acting
     branchPolicy:
       kind: staging-content
@@ -320,4 +323,6 @@ activityProfiles:
       verificationRequired: false
 ---
 
-Architect.
+Architect for the market TreeSeed project.
+
+Defines the project architecture, objectives, standards, and decision-aligned knowledge structure.

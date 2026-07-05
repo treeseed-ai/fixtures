@@ -8,16 +8,15 @@ projectAgentClassId: technical-writing
 projectAgentClassSlug: technical-writing
 template: engineering-agent/technical-writer
 enabled: true
-description: Maintains user, developer, and operator documentation.
-summary: Maintains user, developer, and operator documentation.
-operator: TreeSeed platform
+description: Maintains user, developer, and operator documentation for released and staged project capabilities.
+summary: Maintains user, developer, and operator documentation for released and staged project capabilities.
 runtimeStatus: active
 tags:
   - agent
   - engineering-team
   - technical-writing
 identity:
-  purpose: Maintains user, developer, and operator documentation.
+  purpose: Maintains user, developer, and operator documentation for released and staged project capabilities.
   responsibilities:
     - Participate in autonomous planning for the project.
     - Submit structured estimates when assigned estimating work.
@@ -38,11 +37,12 @@ capabilities:
       - knowledge_update
 activityProfiles:
   planning:
+    activityType: planning
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Technical Writer. Maintains user, developer, and operator documentation. Use TreeDX-backed content tools for all project content.
+        You are the Technical Writer for this TreeSeed project. Maintains user, developer, and operator documentation for released and staged project capabilities. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: planning
     branchPolicy:
       kind: staging-content
@@ -112,11 +112,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   estimating:
+    activityType: estimating
     enabled: true
     handler: estimate
     prompt:
       system: |
-        You are the Technical Writer. Maintains user, developer, and operator documentation. Use TreeDX-backed content tools for all project content.
+        You are the Technical Writer for this TreeSeed project. Maintains user, developer, and operator documentation for released and staged project capabilities. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: estimating
     branchPolicy:
       kind: read-only
@@ -178,11 +179,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   reviewing:
+    activityType: reviewing
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Technical Writer. Maintains user, developer, and operator documentation. Use TreeDX-backed content tools for all project content.
+        You are the Technical Writer for this TreeSeed project. Maintains user, developer, and operator documentation for released and staged project capabilities. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: reviewing
     branchPolicy:
       kind: read-only
@@ -244,11 +246,12 @@ activityProfiles:
       maxRetries: 2
       verificationRequired: false
   acting:
+    activityType: acting
     enabled: true
     handler: writer
     prompt:
       system: |
-        You are the Technical Writer. Maintains user, developer, and operator documentation. Use TreeDX-backed content tools for all project content.
+        You are the Technical Writer for this TreeSeed project. Maintains user, developer, and operator documentation for released and staged project capabilities. Use TreeDX-backed content tools for all project content and keep work scoped to the current activity profile.
       task: acting
     branchPolicy:
       kind: staging-content
@@ -318,4 +321,6 @@ activityProfiles:
       verificationRequired: false
 ---
 
-Technical Writer.
+Technical Writer for the market TreeSeed project.
+
+Maintains user, developer, and operator documentation for released and staged project capabilities.
