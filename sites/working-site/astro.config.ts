@@ -1,7 +1,7 @@
 import starlight from '@astrojs/starlight';
-import { createTreeseedSite } from '@treeseed/core/site';
-import { loadTreeseedManifest } from '@treeseed/sdk/platform/tenant-config';
+import { createSite } from '@treeseed/core/site';
+import { loadManifest } from '@treeseed/sdk/platform/tenant-config';
 
-const tenant = loadTreeseedManifest();
+const tenant = loadManifest();
 
-export default createTreeseedSite(tenant, { starlight });
+export default createSite(tenant, { starlight });

@@ -1,8 +1,8 @@
 import { docsLoader } from '@astrojs/starlight/loaders';
 import { docsSchema } from '@astrojs/starlight/schema';
-import { createTreeseedCollections } from '@treeseed/core/content';
-import { loadTreeseedManifest } from '@treeseed/sdk/platform/tenant-config';
+import { createCollections } from '@treeseed/core/content';
+import { loadManifest } from '@treeseed/sdk/platform/tenant-config';
 
-const tenant = loadTreeseedManifest();
+const tenant = loadManifest();
 
-export const collections = createTreeseedCollections(tenant, { docsLoader, docsSchema });
+export const collections = createCollections(tenant, { docsLoader, docsSchema });
