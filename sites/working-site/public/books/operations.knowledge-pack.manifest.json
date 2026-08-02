@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "treeseed.knowledge-pack/v2",
+  "id": "knowledge-pack:d39b9864ddc79dfd0fa4b8c2",
+  "teamId": "treeseed",
+  "createdAt": "1970-01-01T00:00:00.000Z",
+  "sourceClosure": "d39b9864ddc79dfd0fa4b8c240768cc2a71dbae28d23f241d23a56df23f8005e",
+  "visibility": "public",
+  "members": [
+    {
+      "teamId": "treeseed",
+      "projectId": "treeseed-working-site",
+      "repositoryId": "working-site",
+      "commitSha": "c9e4d1c63b5458154dd55b9dd984f2d54d9f4698",
+      "bookId": "fixture-book-operations",
+      "pageIds": [
+        "fixture.operations.deploy.deploy-template",
+        "fixture.operations.forms.forms-and-routing",
+        "fixture.operations.index",
+        "fixture.operations.release.release-checks"
+      ],
+      "digest": "a3dd5c9840b4eae4dbea1ef3836375d0e075a247147cf3dc4b3a9deb4b4ca7cd"
+    }
+  ],
+  "files": [
+    {
+      "path": "books/fixture-book-operations/deploy/deploy-template.md",
+      "sha256": "4614c02601f154b58ef21969b6d13a86b921365e04de8d717b2415928c4ad391",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-operations/forms/forms-and-routing.md",
+      "sha256": "5f414745e2dd4769c65c1f542fbbbced0efc7a46fbc588e46be61fcf89752fb0",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-operations/index.md",
+      "sha256": "c012f4eec1718e3f41008e5d20c77978c0da015e61371d6712394b25113ed67c",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-operations/release/release-checks.md",
+      "sha256": "2db6839a17f3c9965399efb52642ed60b646492d61a5a68435e92162acda814d",
+      "mediaType": "text/markdown"
+    }
+  ]
+}

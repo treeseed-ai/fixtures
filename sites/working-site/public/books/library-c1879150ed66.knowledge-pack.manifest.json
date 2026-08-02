@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "treeseed.knowledge-pack/v2",
+  "id": "knowledge-pack:c1879150ed66df911dc65ed0",
+  "teamId": "treeseed",
+  "createdAt": "1970-01-01T00:00:00.000Z",
+  "sourceClosure": "c1879150ed66df911dc65ed06f83cb02159aad7e7111df84af5b755bd3557713",
+  "visibility": "public",
+  "members": [
+    {
+      "teamId": "treeseed",
+      "projectId": "treeseed-working-site",
+      "repositoryId": "working-site",
+      "commitSha": "c9e4d1c63b5458154dd55b9dd984f2d54d9f4698",
+      "bookId": "fixture-book-research",
+      "pageIds": [
+        "fixture.research.evidence.keeping-inquiry-visible",
+        "fixture.research.evidence.notes-to-books",
+        "fixture.research.index",
+        "fixture.research.inquiry.objectives-as-focus",
+        "fixture.research.inquiry.questions-as-records"
+      ],
+      "digest": "c0b9fcd3cc61be83310f9ee096e74d140203999c7fb4d8199df25308d7ea13ee"
+    },
+    {
+      "teamId": "treeseed",
+      "projectId": "treeseed-working-site",
+      "repositoryId": "working-site",
+      "commitSha": "c9e4d1c63b5458154dd55b9dd984f2d54d9f4698",
+      "bookId": "fixture-book-architecture",
+      "pageIds": [
+        "fixture.architecture.content.content-model",
+        "fixture.architecture.index",
+        "fixture.architecture.management.working-surface",
+        "fixture.architecture.runtime.site-runtime",
+        "fixture.architecture.overview"
+      ],
+      "digest": "aafd7c6d6edf836a1f875cc10c21b05480f411ffbeba9bfe290c31cfd7d4e517"
+    },
+    {
+      "teamId": "treeseed",
+      "projectId": "treeseed-working-site",
+      "repositoryId": "working-site",
+      "commitSha": "c9e4d1c63b5458154dd55b9dd984f2d54d9f4698",
+      "bookId": "fixture-book-developer",
+      "pageIds": [
+        "fixture.developer.content.content-authoring",
+        "fixture.developer.index",
+        "fixture.developer.verification.verification-loop",
+        "fixture.developer.workflow.local-workflow"
+      ],
+      "digest": "902d3bce14a1e2451a8292698acd512495edf151d3d95483bc04bd30cfeeb4eb"
+    },
+    {
+      "teamId": "treeseed",
+      "projectId": "treeseed-working-site",
+      "repositoryId": "working-site",
+      "commitSha": "c9e4d1c63b5458154dd55b9dd984f2d54d9f4698",
+      "bookId": "fixture-book-operations",
+      "pageIds": [
+        "fixture.operations.deploy.deploy-template",
+        "fixture.operations.forms.forms-and-routing",
+        "fixture.operations.index",
+        "fixture.operations.release.release-checks"
+      ],
+      "digest": "a3dd5c9840b4eae4dbea1ef3836375d0e075a247147cf3dc4b3a9deb4b4ca7cd"
+    }
+  ],
+  "files": [
+    {
+      "path": "books/fixture-book-architecture/content/content-model.md",
+      "sha256": "f58673044173bb3ba9e22a90075e0545fd11a0300614385da5291e2f461e0269",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-architecture/index.md",
+      "sha256": "5d87705c72d386ae9bb690d3d4b6af0c99410f3d834e2bbc287853b3d476bd9c",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-architecture/management/working-surface.md",
+      "sha256": "e14db9046c872322d343a9a5f51bdfc749ae5d8f27d0a58798ed3c67cea470f4",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-architecture/runtime/site-runtime.md",
+      "sha256": "4bfbde10bd66d6226790c3e9b6c92f9781fba909e0b56f14d7e74490f87d867a",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-architecture/overview.md",
+      "sha256": "d223678bbf9dac2d0171956282d470e0f79a55e62677fcc82853decd3aa2f39d",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-developer/content/content-authoring.md",
+      "sha256": "851e36a93c515fc86ac9b1460d8310e9e557753b49ecf567852f8874af2ec9ae",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-developer/index.md",
+      "sha256": "2ca9d8b0bc3d2a74004cd86b8c3c5a3b688b5e3d2e8af97122179f2282006385",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-developer/verification/verification-loop.md",
+      "sha256": "fa203abdff8df814128909ec1b4bfaeaf5035af2e96b7414297a135cd5e36281",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-developer/workflow/local-workflow.md",
+      "sha256": "3cf6b9ec42fd6d907ec9304183052e0d157f8961b573bf21b6489abb67fb8324",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-operations/deploy/deploy-template.md",
+      "sha256": "4614c02601f154b58ef21969b6d13a86b921365e04de8d717b2415928c4ad391",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-operations/forms/forms-and-routing.md",
+      "sha256": "5f414745e2dd4769c65c1f542fbbbced0efc7a46fbc588e46be61fcf89752fb0",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-operations/index.md",
+      "sha256": "c012f4eec1718e3f41008e5d20c77978c0da015e61371d6712394b25113ed67c",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-operations/release/release-checks.md",
+      "sha256": "2db6839a17f3c9965399efb52642ed60b646492d61a5a68435e92162acda814d",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-research/evidence/keeping-inquiry-visible.md",
+      "sha256": "6928a9c92976e2903e157702d1c173f49136ea1e21dc45405a74a0db49461c08",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-research/evidence/notes-to-books.md",
+      "sha256": "2416369b884ec40543e2003ecd21efbc0bd7a1f045c922073ec763f83c39ac97",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-research/index.md",
+      "sha256": "04bfb0bea6b32ea0d44720f3b1bb6c9b3dc04db7e7bc0c9ee272d2ad876ccc33",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-research/inquiry/objectives-as-focus.md",
+      "sha256": "96843476249f70d1a5f9620c88a28fb600f8f6c3e78c00941276bd661530a68a",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-research/inquiry/questions-as-records.md",
+      "sha256": "94c4f4d3b4364f682a4d0d2bc2fc715f797ffe8055e51c3754fed8fd0225fe33",
+      "mediaType": "text/markdown"
+    }
+  ]
+}

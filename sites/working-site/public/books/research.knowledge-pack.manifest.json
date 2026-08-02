@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "treeseed.knowledge-pack/v2",
+  "id": "knowledge-pack:f4a0a15093038331d553fc89",
+  "teamId": "treeseed",
+  "createdAt": "1970-01-01T00:00:00.000Z",
+  "sourceClosure": "f4a0a15093038331d553fc89b970740fb1f16eefd6f1a8c2ff92438733b35ef0",
+  "visibility": "public",
+  "members": [
+    {
+      "teamId": "treeseed",
+      "projectId": "treeseed-working-site",
+      "repositoryId": "working-site",
+      "commitSha": "c9e4d1c63b5458154dd55b9dd984f2d54d9f4698",
+      "bookId": "fixture-book-research",
+      "pageIds": [
+        "fixture.research.evidence.keeping-inquiry-visible",
+        "fixture.research.evidence.notes-to-books",
+        "fixture.research.index",
+        "fixture.research.inquiry.objectives-as-focus",
+        "fixture.research.inquiry.questions-as-records"
+      ],
+      "digest": "c0b9fcd3cc61be83310f9ee096e74d140203999c7fb4d8199df25308d7ea13ee"
+    }
+  ],
+  "files": [
+    {
+      "path": "books/fixture-book-research/evidence/keeping-inquiry-visible.md",
+      "sha256": "6928a9c92976e2903e157702d1c173f49136ea1e21dc45405a74a0db49461c08",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-research/evidence/notes-to-books.md",
+      "sha256": "2416369b884ec40543e2003ecd21efbc0bd7a1f045c922073ec763f83c39ac97",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-research/index.md",
+      "sha256": "04bfb0bea6b32ea0d44720f3b1bb6c9b3dc04db7e7bc0c9ee272d2ad876ccc33",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-research/inquiry/objectives-as-focus.md",
+      "sha256": "96843476249f70d1a5f9620c88a28fb600f8f6c3e78c00941276bd661530a68a",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-research/inquiry/questions-as-records.md",
+      "sha256": "94c4f4d3b4364f682a4d0d2bc2fc715f797ffe8055e51c3754fed8fd0225fe33",
+      "mediaType": "text/markdown"
+    }
+  ]
+}

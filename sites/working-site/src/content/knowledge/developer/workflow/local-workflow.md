@@ -1,8 +1,31 @@
 ---
 title: Local workflow
-description: The shortest loop for making and verifying a TreeSeed change.
 sidebar:
   order: 1
+schemaVersion: treeseed.knowledge-page/v1
+id: fixture.developer.workflow.local-workflow
+bookId: fixture-book-developer
+slug: workflow/local-workflow
+summary: The shortest loop for making and verifying a TreeSeed change.
+status: published
+visibility: public
+order: 40
+tags: []
+contributors: []
+relatedBookIds: []
+relatedKnowledgeIds: []
+relatedNoteIds: []
+relatedQuestionIds: []
+relatedObjectiveIds: []
+relatedProposalIds: []
+relatedDecisionIds: []
+capabilityIds: []
+routePatterns: []
+resourceTypes:
+  - fixture-knowledge
+actionIds: []
+keywords: []
+documentationUrls: []
 ---
 
 The normal local loop is:
