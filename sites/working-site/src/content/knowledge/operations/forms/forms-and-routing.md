@@ -10,7 +10,7 @@ summary: How contact and subscribe flows behave in the generic TreeSeed fixture.
 status: published
 visibility: public
 order: 20
-tags: []
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []

@@ -10,7 +10,7 @@ summary: How short working notes become longer-lived TreeSeed documentation.
 status: published
 visibility: public
 order: 20
-tags: []
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []

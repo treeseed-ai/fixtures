@@ -11,7 +11,7 @@ summary: Why questions are modeled explicitly instead of remaining implicit in
 status: published
 visibility: public
 order: 50
-tags: []
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []

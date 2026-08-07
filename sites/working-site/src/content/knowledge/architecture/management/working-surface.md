@@ -10,7 +10,7 @@ summary: Why TreeSeed treats management and documentation as one public surface.
 status: published
 visibility: public
 order: 30
-tags: []
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []

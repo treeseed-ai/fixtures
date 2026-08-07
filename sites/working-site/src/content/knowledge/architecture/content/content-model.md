@@ -11,7 +11,7 @@ summary: The role of pages, notes, questions, objectives, people, agents, books,
 status: published
 visibility: public
 order: 10
-tags: []
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []

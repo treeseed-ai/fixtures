@@ -11,7 +11,7 @@ summary: What the included deploy workflow template represents for downstream
 status: published
 visibility: public
 order: 10
-tags: []
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []

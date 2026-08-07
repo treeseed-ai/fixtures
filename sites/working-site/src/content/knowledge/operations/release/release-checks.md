@@ -10,7 +10,7 @@ summary: What the TreeSeed verification chain is expected to prove before publis
 status: published
 visibility: public
 order: 40
-tags: []
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []

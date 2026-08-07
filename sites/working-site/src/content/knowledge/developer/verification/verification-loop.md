@@ -10,7 +10,7 @@ summary: How the fixture participates in the package verification chain.
 status: published
 visibility: public
 order: 30
-tags: []
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []

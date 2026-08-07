@@ -10,7 +10,7 @@ summary: Why objectives exist alongside questions in the TreeSeed model.
 status: published
 visibility: public
 order: 40
-tags: []
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []

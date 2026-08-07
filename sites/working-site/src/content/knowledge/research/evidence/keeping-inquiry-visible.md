@@ -11,7 +11,7 @@ summary: Why TreeSeed treats inquiry as part of the site surface instead of
 status: published
 visibility: public
 order: 10
-tags: []
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []

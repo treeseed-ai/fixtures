@@ -11,7 +11,7 @@ summary: How fixture content is organized so contributors can update the example
 status: published
 visibility: public
 order: 10
-tags: []
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []
