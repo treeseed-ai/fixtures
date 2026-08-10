@@ -1,0 +1,26 @@
+name: Verify
+
+on:
+  pull_request:
+  push:
+    branches: [main, staging]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fixture-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Validate fixture contract
+        run: |
+          test -f sites/working-site/fixture.manifest.json
+          test -f sites/working-site/src/manifest.yaml
+          test -f sites/working-site/src/config.yaml
+          node -e "const f=require('./sites/working-site/fixture.manifest.json'); if(f.id!=='treeseed-working-site'||f.contentRoot!=='src/content') process.exit(1)"
+          test -z "$(find . -type d \( -name node_modules -o -name dist -o -name .astro \) -print -quit)"
