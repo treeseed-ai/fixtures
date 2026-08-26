@@ -1,7 +1,7 @@
 import { docsLoader } from '@astrojs/starlight/loaders';
 import { docsSchema } from '@astrojs/starlight/schema';
 import { createCollections } from '@treeseed/core/content';
-import { loadManifest } from '@treeseed/sdk/platform/tenant-config';
+import { loadManifest } from '@treeseed/core/tenant-config';
 
 const tenant = loadManifest();
 
