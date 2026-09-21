@@ -2,9 +2,18 @@
 title: Objectives as focus
 sidebar:
   order: 2
-schemaVersion: treeseed.knowledge-page/v1
+schemaVersion: treeseed.knowledge-page/v2
 id: fixture.research.inquiry.objectives-as-focus
-bookId: fixture-book-research
+projectId: fixture-site
+bookRef:
+  store: treedx
+  model: book
+  id: fixture-book-research
+  revision: 1
+  digest: sha256:3e2d4141d61b6a1da283ce15b59e2481325d63991142e58e781ae00e72ff35b9
+  repository: fixture-library
+  commit: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  path: books/research.mdx
 slug: inquiry/objectives-as-focus
 summary: Why objectives exist alongside questions in the TreeSeed model.
 status: published

@@ -2,9 +2,18 @@
 title: Working surface
 sidebar:
   order: 1
-schemaVersion: treeseed.knowledge-page/v1
+schemaVersion: treeseed.knowledge-page/v2
 id: fixture.architecture.management.working-surface
-bookId: fixture-book-architecture
+projectId: fixture-site
+bookRef:
+  store: treedx
+  model: book
+  id: fixture-book-architecture
+  revision: 1
+  digest: sha256:16db9ae632c4b646e3c64af31b06d8b57808a76be4a3c74cd9c2bb445686d795
+  repository: fixture-library
+  commit: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  path: books/architecture.mdx
 slug: management/working-surface
 summary: Why TreeSeed treats management and documentation as one public surface.
 status: published
