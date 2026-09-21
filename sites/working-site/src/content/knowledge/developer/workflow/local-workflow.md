@@ -2,9 +2,18 @@
 title: Local workflow
 sidebar:
   order: 1
-schemaVersion: treeseed.knowledge-page/v1
+schemaVersion: treeseed.knowledge-page/v2
 id: fixture.developer.workflow.local-workflow
-bookId: fixture-book-developer
+projectId: fixture-site
+bookRef:
+  store: treedx
+  model: book
+  id: fixture-book-developer
+  revision: 1
+  digest: sha256:3435d7da71eec57bde980852da3042b7e25b6cbf7cc961e9882dd9d52f326335
+  repository: fixture-library
+  commit: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  path: books/developer.mdx
 slug: workflow/local-workflow
 summary: The shortest loop for making and verifying a TreeSeed change.
 status: published

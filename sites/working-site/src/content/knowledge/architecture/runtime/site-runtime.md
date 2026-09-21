@@ -2,9 +2,18 @@
 title: Site runtime
 sidebar:
   order: 1
-schemaVersion: treeseed.knowledge-page/v1
+schemaVersion: treeseed.knowledge-page/v2
 id: fixture.architecture.runtime.site-runtime
-bookId: fixture-book-architecture
+projectId: fixture-site
+bookRef:
+  store: treedx
+  model: book
+  id: fixture-book-architecture
+  revision: 1
+  digest: sha256:16db9ae632c4b646e3c64af31b06d8b57808a76be4a3c74cd9c2bb445686d795
+  repository: fixture-library
+  commit: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  path: books/architecture.mdx
 slug: runtime/site-runtime
 summary: The shared runtime and page surface that power a TreeSeed tenant.
 status: published

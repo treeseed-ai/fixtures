@@ -2,9 +2,18 @@
 title: Forms and routing
 sidebar:
   order: 1
-schemaVersion: treeseed.knowledge-page/v1
+schemaVersion: treeseed.knowledge-page/v2
 id: fixture.operations.forms.forms-and-routing
-bookId: fixture-book-operations
+projectId: fixture-site
+bookRef:
+  store: treedx
+  model: book
+  id: fixture-book-operations
+  revision: 1
+  digest: sha256:c7f161b264880a4e2b3f1907d0d4a6015117779b3a0e9e8bee34bb1dc5afcb79
+  repository: fixture-library
+  commit: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  path: books/operations.mdx
 slug: forms/forms-and-routing
 summary: How contact and subscribe flows behave in the generic TreeSeed fixture.
 status: published
