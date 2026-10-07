@@ -3,7 +3,7 @@ site:
     src: /logo.png
     alt: TreeSeed logo
   name: TreeSeed
-  statement: Documentation-first platform workspace
+  statement: Grow what you know
   siteUrl: https://treeseed.dev
   githubRepository: https://github.com/treeseed-ai/fixtures
   discordLink: https://example.com/treeseed-community

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "treeseed.knowledge-pack/v2",
+  "id": "knowledge-pack:1777f9f436cf5fbef77d58e5",
+  "teamId": "treeseed",
+  "createdAt": "1970-01-01T00:00:00.000Z",
+  "sourceClosure": "1777f9f436cf5fbef77d58e5bca9013136dca21f48340e3b00b4cff32d319030",
+  "visibility": "public",
+  "members": [
+    {
+      "teamId": "treeseed",
+      "projectId": "treeseed-working-site",
+      "repositoryId": "working-site",
+      "commitSha": "c9e4d1c63b5458154dd55b9dd984f2d54d9f4698",
+      "bookId": "fixture-book-developer",
+      "pageIds": [
+        "fixture.developer.content.content-authoring",
+        "fixture.developer.index",
+        "fixture.developer.verification.verification-loop",
+        "fixture.developer.workflow.local-workflow"
+      ],
+      "digest": "902d3bce14a1e2451a8292698acd512495edf151d3d95483bc04bd30cfeeb4eb"
+    }
+  ],
+  "files": [
+    {
+      "path": "books/fixture-book-developer/content/content-authoring.md",
+      "sha256": "851e36a93c515fc86ac9b1460d8310e9e557753b49ecf567852f8874af2ec9ae",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-developer/index.md",
+      "sha256": "2ca9d8b0bc3d2a74004cd86b8c3c5a3b688b5e3d2e8af97122179f2282006385",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-developer/verification/verification-loop.md",
+      "sha256": "fa203abdff8df814128909ec1b4bfaeaf5035af2e96b7414297a135cd5e36281",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-developer/workflow/local-workflow.md",
+      "sha256": "3cf6b9ec42fd6d907ec9304183052e0d157f8961b573bf21b6489abb67fb8324",
+      "mediaType": "text/markdown"
+    }
+  ]
+}

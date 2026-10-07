@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "treeseed.knowledge-pack/v2",
+  "id": "knowledge-pack:d8d51d41f746baffbdda51c6",
+  "teamId": "treeseed",
+  "createdAt": "1970-01-01T00:00:00.000Z",
+  "sourceClosure": "d8d51d41f746baffbdda51c6af226fb54134e9f06e2c40b74bbcb05bc8198a65",
+  "visibility": "public",
+  "members": [
+    {
+      "teamId": "treeseed",
+      "projectId": "treeseed-working-site",
+      "repositoryId": "working-site",
+      "commitSha": "c9e4d1c63b5458154dd55b9dd984f2d54d9f4698",
+      "bookId": "fixture-book-architecture",
+      "pageIds": [
+        "fixture.architecture.content.content-model",
+        "fixture.architecture.index",
+        "fixture.architecture.management.working-surface",
+        "fixture.architecture.runtime.site-runtime",
+        "fixture.architecture.overview"
+      ],
+      "digest": "aafd7c6d6edf836a1f875cc10c21b05480f411ffbeba9bfe290c31cfd7d4e517"
+    }
+  ],
+  "files": [
+    {
+      "path": "books/fixture-book-architecture/content/content-model.md",
+      "sha256": "f58673044173bb3ba9e22a90075e0545fd11a0300614385da5291e2f461e0269",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-architecture/index.md",
+      "sha256": "5d87705c72d386ae9bb690d3d4b6af0c99410f3d834e2bbc287853b3d476bd9c",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-architecture/management/working-surface.md",
+      "sha256": "e14db9046c872322d343a9a5f51bdfc749ae5d8f27d0a58798ed3c67cea470f4",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-architecture/runtime/site-runtime.md",
+      "sha256": "4bfbde10bd66d6226790c3e9b6c92f9781fba909e0b56f14d7e74490f87d867a",
+      "mediaType": "text/markdown"
+    },
+    {
+      "path": "books/fixture-book-architecture/overview.md",
+      "sha256": "d223678bbf9dac2d0171956282d470e0f79a55e62677fcc82853decd3aa2f39d",
+      "mediaType": "text/markdown"
+    }
+  ]
+}
